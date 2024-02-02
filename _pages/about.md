@@ -33,8 +33,11 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 # 📝 Publications 
 (*: Equal Contribution; †: Corresponding Author)
 ## MedTiny: Enhanced Mediator Modeling Language for Scalable Parallel Algorithms (QRS 2023)
+
 Xiangyu Li, **Yihao Zhang**, Xiaokun Luan, Xiaoyong Xue, Meng Sun†
+
 This paper introduces MedTiny,a streamlined component-based modeling language, evolved from Mediator. Existing modeling languages struggle to provide convenience in expressing recurrent component configurations, which are common in modern large-scale parallel computation modelsin distributed environments. Furthermore, Mediator frequently conducts repetitive flag manipulations to synchronize between distributed entities. To address these issues, we propose syntactic enhancements, including component array with static for each iterator and automatic synchronization flag manipulation.These enhancements significantly reduce code size and effectively address the aforementioned problems. After simplification, we successfully incorporate language feature enhancements into MedTiny without compromising its formality. Subsequently, we develop a prototype code generator that targets multi-threaded Python for code execution and PRISM model checker for verification. To demonstrate MedTiny's efficiency, we include a case study on a character counting MapReduce algorithm.
+
 [[pdf](https://qrs23.techconf.org/download/webpub/pdfs/QRS-C2023-56EpUKA3a3CGa6xc1KYNzL/593900a441/593900a441.pdf)]
 
 # 🎖 Honors and Awards
