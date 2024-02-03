@@ -74,7 +74,7 @@ While Feedforward Neural Networks (FNNs) have achieved remarkable success in var
 # 💬 Talks
 - *2023.06*, Presented my paper "Using Z3 for Formal Modeling and Verification of FNN Global Robustness" on SEKE 2023.
 
-# 💻 The projects undertaken or participated in
+# 💻 Projects
 - *2023-2025*, Study on the interpretability of large language model architecture and algorithm, Program Director.
 - *2022-2025*, Trustworthy guarantee of deep learning system, Member.
 
