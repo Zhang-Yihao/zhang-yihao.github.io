@@ -19,7 +19,7 @@ redirect_from:
 
 I am YIhao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I am also currently serving as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. In the foreseeable future of the next five years, I will be pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
-My research interest includes formal methods theory, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 4 papers at different international conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes formal methods theory, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 4 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 If you wish to access my personal homepages prior to 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
@@ -33,7 +33,7 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 
 # 📝 Publications 
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
-## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (Journal of Logical and Algebraic Methods in Programming Vol 136)
+## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (JLAMP, Vol 136)
 Zeming Wei, Xiyue Zhang, **Yihao Zhang**, Meng Sun${}^\dagger$
 
 Recurrent Neural Networks (RNNs) have achieved tremendous success in processing sequential data, yet understanding and analyzing their behaviours remains a significant challenge. To this end, many efforts have been made to extract finite automata from RNNs, which are more amenable for analysis and explanation. However, existing approaches like exact learning and compositional approaches for model extraction have limitations in either scalability or precision. In this paper, we propose a novel framework of Weighted Finite Automata (WFA) extraction and explanation to tackle the limitations for natural language tasks. First, to address the transition sparsity and context loss problems we identified in WFA extraction for natural language tasks, we propose an empirical method to complement missing rules in the transition diagram, and adjust transition matrices to enhance the context-awareness of the WFA. We also propose two data augmentation tactics to track more dynamic behaviours of RNN, which further allows us to improve the extraction precision. Based on the extracted model, we propose an explanation method for RNNs including a word embedding method – Transition Matrix Embeddings (TME) and TME-based task oriented explanation for the target RNN. Our evaluation demonstrates the advantage of our method in extraction precision than existing approaches, and the effectiveness of TME-based explanation method in applications to pretraining and adversarial example generation.
@@ -48,13 +48,13 @@ This paper introduces MedTiny, a streamlined component-based modeling language, 
 [[pdf](https://qrs23.techconf.org/download/webpub/pdfs/QRS-C2023-56EpUKA3a3CGa6xc1KYNzL/593900a441/593900a441.pdf)]
 ## Sharpness-aware minimization alone can improve adversarial robustness (ICML 2023 AdvML-Frontiers Workshop)
 
-Zeming Wei*${}^\dagger$, Jingyu Zhu*, **Yihao Zhang***
+Zeming Wei\*${}^\dagger$, Jingyu Zhu\*, **Yihao Zhang**\*
 
 Sharpness-Aware Minimization (SAM) is an effective method for improving generalization ability by regularizing loss sharpness. In this paper, we explore SAM in the context of adversarial robustness. We find that using only SAM can achieve superior adversarial robustness without sacrificing clean accuracy compared to standard training, which is an unexpected benefit. We also discuss the relation between SAM and adversarial training (AT), a popular method for improving the adversarial robustness of DNNs. In particular, we show that SAM and AT differ in terms of perturbation strength, leading to different accuracy and robustness trade-offs. We provide theoretical evidence for these claims in a simplified model. Finally, while AT suffers from decreased clean accuracy and computational overhead, we suggest that SAM can be regarded as a lightweight substitute for AT under certain requirements.
 
 [[pdf](https://arxiv.org/pdf/2305.05392)] [[arxiv](https://arxiv.org/abs/2305.05392)] [[code](https://github.com/weizeming/SAM_AT)]
 
-## Using Z3 for Formal Modeling and Verification of FNN Global Robustness
+## Using Z3 for Formal Modeling and Verification of FNN Global Robustness (SEKE 2023)
 
 **Yihao Zhang**, Zeming Wei, Xiyue Zhang, Meng Sun${}^\dagger$
 
