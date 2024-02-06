@@ -81,3 +81,18 @@ While Feedforward Neural Networks (FNNs) have achieved remarkable success in var
 # 🔗 Links
 - 👨‍🏫 **Advisors**: [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) (PKU), [Jun Sun](https://sunjun.site/) (SMU).
 - 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/).
+## 📚 Academic Links
+- [Z3 Guide](https://microsoft.github.io/z3guide/)
+- [Z3 Tutorial](https://theory.stanford.edu/~nikolaj/programmingz3.html)
+- [Coq](https://coq.inria.fr/)
+- [Software Foundations](https://softwarefoundations.cis.upenn.edu/)
+- [SPIN](https://spinroot.com/spin/whatispin.html)
+- [UPPAAL](https://uppaal.org/)
+- [TLA+](https://lamport.azurewebsites.net/tla/tla.html)
+- [NuSMV](https://nusmv.fbk.eu/index.html)
+- [CMinor Verifier](https://github.com/thufv/CMinor-Verifier/tree/master)
+- [CSAPP](https://csapp.cs.cmu.edu/) [Lecture Video](https://www.bilibili.com/video/BV1iW411d7hd/?vd_source=1fc6b166db84dbbef5ddee967c234d61)
+- [CAV](http://i-cav.org/)
+- [POPL](https://sigplan.org/Conferences/POPL/)
+- [Open class on Constraint Solving](https://www.koushare.com/home/searchRes?key=%E7%BA%A6%E6%9D%9F%E6%B1%82%E8%A7%A3), [Bilibili](https://space.bilibili.com/5510373/channel/seriesdetail?sid=3640012&ctype=0)
+- Model Checking and Program Verification Courses & Tutorials: [PKU Software Foundations](https://xiongyingfei.github.io/SF/2023/), [PKU Software Analysis](https://xiongyingfei.github.io/SA_new/2023/assignments.html), [USTC Formal Methods](https://faculty.ustc.edu.cn/huangwenchao/zh_CN/zdylm/680196/list/index.htm), [TJU Model Checking](https://cic.tju.edu.cn/faculty/zhangxiaowang/MCPV.htm), [Stanford CS357](https://web.stanford.edu/class/cs357/), [Column of Program Verification on Zhihu](https://www.zhihu.com/column/c_1311359270597419008)
