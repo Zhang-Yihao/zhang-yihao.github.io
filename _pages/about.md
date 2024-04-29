@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am YIhao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I am also currently serving as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. In the foreseeable future of the next five years, I will be pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
+I am YIhao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. In the foreseeable future of the next five years, I will be pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
 My research interest includes formal methods theory, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 4 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
@@ -25,6 +25,8 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 
 
 # 🔥 News
+- *2024.04*: &nbsp;🎉 I finished my paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), which is posted on arxiv. Our [repository](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering) has got 5 stars🌟 on GitHub! 
+- *2024.03*: &nbsp;🔗 2 Papers (as first author and second-to-last author, respectively) accepted by ICLR 2024 R2-FM Workshop.
 - *2023.12*: &nbsp;💸 My application for the Beijing Natural Science Foundation Undergraduate "Initiating Research" Program has been approved.
 - *2023.10*: &nbsp;✈️ I am now going to Singapore Management University for a six-month exchange.
 - *2023.09*: &nbsp;🎉 Our paper, [MedTiny: Enhanced Mediator Modeling Language for Scalable Parallel Algorithms](https://qrs23.techconf.org/download/webpub/pdfs/QRS-C2023-56EpUKA3a3CGa6xc1KYNzL/593900a441/593900a441.pdf), is accepted by QRS-C 2023.
@@ -33,6 +35,18 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 
 # 📝 Publications 
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+## Towards General Conceptual Model Editing via Adversarial Representation Engineering
+**Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
+
+Recent research has introduced Representation Engineering (RepE) as a promising approach for understanding complex inner workings of large-scale models like Large Language Models (LLMs). However, finding practical and efficient methods to apply these representations for general and flexible model editing remains an open problem. Inspired by the Generative Adversarial Network (GAN) framework, we introduce a novel approach called Adversarial Representation Engineering (ARE). This method leverages RepE by using a representation sensor to guide the editing of LLMs, offering a unified and interpretable framework for conceptual model editing without degrading baseline performance. Our experiments on multiple conceptual editing confirm ARE's effectiveness. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
+
+[[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code]([https://github.com/weizeming/Extract_WFA_from_RNN_for_NL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering))]
+
+
 ## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (JLAMP, Vol 136)
 Zeming Wei, Xiyue Zhang, **Yihao Zhang**, Meng Sun${}^\dagger$
 
