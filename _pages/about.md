@@ -39,13 +39,14 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-## Towards General Conceptual Model Editing via Adversarial Representation Engineering
+## Towards General Conceptual Model Editing via Adversarial Representation Engineering (Preprint)
 **Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
 
 Recent research has introduced Representation Engineering (RepE) as a promising approach for understanding complex inner workings of large-scale models like Large Language Models (LLMs). However, finding practical and efficient methods to apply these representations for general and flexible model editing remains an open problem. Inspired by the Generative Adversarial Network (GAN) framework, we introduce a novel approach called Adversarial Representation Engineering (ARE). This method leverages RepE by using a representation sensor to guide the editing of LLMs, offering a unified and interpretable framework for conceptual model editing without degrading baseline performance. Our experiments on multiple conceptual editing confirm ARE's effectiveness. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
 
 [[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code]([https://github.com/weizeming/Extract_WFA_from_RNN_for_NL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering))]
-
+</div>
+</div>
 
 ## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (JLAMP, Vol 136)
 Zeming Wei, Xiyue Zhang, **Yihao Zhang**, Meng Sun${}^\dagger$
