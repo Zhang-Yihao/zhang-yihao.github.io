@@ -25,6 +25,7 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 
 
 # 🔥 News
+- *2024.05*: &nbsp;🎉 Our paper, [On the Duality Between Sharpness-Aware Minimization and Adversarial Training](https://arxiv.org/pdf/2402.15152), is accepted by ICML 2024.
 - *2024.04*: &nbsp;🎉 I finished my paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), which is posted on arxiv. Our [repository](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering) has got 5 stars🌟 on GitHub! 
 - *2024.03*: &nbsp;🔗 2 Papers (as first author and second-to-last author, respectively) accepted by ICLR 2024 R2-FM Workshop.
 - *2023.12*: &nbsp;💸 My application for the Beijing Natural Science Foundation Undergraduate "Initiating Research" Program has been approved.
@@ -36,6 +37,19 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 # 📝 Publications 
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/SAMAT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+## TOn the Duality Between Sharpness-Aware Minimization and Adversarial Training (ICML 2024)
+**Yihao Zhang**\*, Hangzhou He\*, Jingyu Zhu\*, Huanran Chen, Yifei Wang, Zeming Wei${}^\dagger$
+
+Adversarial Training (AT), which adversarially perturb the input samples during training, has been acknowledged as one of the most effective defenses against adversarial attacks, yet suffers from a fundamental tradeoff that inevitably decreases clean accuracy. Instead of perturbing the samples, Sharpness-Aware Minimization (SAM) perturbs the model weights during training to find a more flat loss landscape and improve generalization. However, as SAM is designed for better clean accuracy, its effectiveness in enhancing adversarial robustness remains unexplored. In this work, considering the duality between SAM and AT, we investigate the adversarial robustness derived from SAM. Intriguingly, we find that using SAM alone can improve adversarial robustness. To understand this unexpected property of SAM, we first provide empirical and theoretical insights into how SAM can implicitly learn more robust features, and conduct comprehensive experiments to show that SAM can improve adversarial robustness notably without sacrificing any clean accuracy, shedding light on the potential of SAM to be a substitute for AT when accuracy comes at a higher priority. Code is available at [this https URL](https://github.com/weizeming/SAM_AT).
+
+[[pdf](https://arxiv.org/pdf/2402.15152)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code](https://github.com/weizeming/SAM_AT)]
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -44,7 +58,7 @@ If you wish to access my personal homepages prior to 2024, please click [here](h
 
 Recent research has introduced Representation Engineering (RepE) as a promising approach for understanding complex inner workings of large-scale models like Large Language Models (LLMs). However, finding practical and efficient methods to apply these representations for general and flexible model editing remains an open problem. Inspired by the Generative Adversarial Network (GAN) framework, we introduce a novel approach called Adversarial Representation Engineering (ARE). This method leverages RepE by using a representation sensor to guide the editing of LLMs, offering a unified and interpretable framework for conceptual model editing without degrading baseline performance. Our experiments on multiple conceptual editing confirm ARE's effectiveness. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
 
-[[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code]([https://github.com/weizeming/Extract_WFA_from_RNN_for_NL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering))]
+[[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering)]
 </div>
 </div>
 
@@ -95,7 +109,7 @@ While Feedforward Neural Networks (FNNs) have achieved remarkable success in var
 
 # 🔗 Links
 - 👨‍🏫 **Advisors**: [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) (PKU), [Jun Sun](https://sunjun.site/) (SMU).
-- 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/).
+- 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/), [Huanran Chen](https://huanranchen.github.io/)
 ## 📚 Academic Links
 - [Z3 Guide](https://microsoft.github.io/z3guide/)
 - [Z3 Tutorial](https://theory.stanford.edu/~nikolaj/programmingz3.html)
