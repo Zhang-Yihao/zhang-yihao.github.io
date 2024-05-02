@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am YIhao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. In the foreseeable future of the next five years, I will be pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
+I am Yihao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. Simultaneously, I am pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University, thanks to the *Applied Mathematics Elite Program*. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
-My research interest includes formal methods theory, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 4 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest includes formal methods, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 4 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+**Currently, I am following (representation-related works on LLMs)[https://arxiv.org/abs/2310.01405]. If you are samely interested in this track of papers, I would kindly appreciate it if you would like to contact with me. I am also interested in formal method for Quantum Computing and Software Testing Methods Towards Modern AI Models.**
 
 If you wish to access my personal homepages prior to 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
@@ -97,10 +99,11 @@ While Feedforward Neural Networks (FNNs) have achieved remarkable success in var
 - **Second prize**, Chinese Mathematics Competitions for Undergraduates (Beijing Division), *2023*
 
 # 📖 Educations
-- *2023.10 - 2024.05 (now)*, Research Assistant, School of Computing and Informatino Systems, Singapore Management University.
+- *2023.10 - 2024.05*, Research Assistant, School of Computing and Information Systems, Singapore Management University.
 - *2020.09 - 2024.06 (expected)*, Undergraduate Student, School of Mathematical Sciences, Peking University.
 
 # 💬 Talks
+- *2024.04*, Presented our work on [Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752) in an internal talk in Huawei.
 - *2023.06*, Presented my paper "Using Z3 for Formal Modeling and Verification of FNN Global Robustness" on SEKE 2023.
 
 # 💻 Projects
