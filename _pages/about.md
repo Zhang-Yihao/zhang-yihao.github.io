@@ -21,7 +21,7 @@ I am Yihao Zhang (张益豪), a senior student at the School of Mathematical Sci
 
 My research interest includes formal methods, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 7 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-**Currently, I am following (representation-related works on LLMs)[https://arxiv.org/abs/2310.01405]. If you are samely interested in this track of papers, I would kindly appreciate it if you would like to contact with me. I am also interested in formal method for Quantum Computing and Software Testing Methods Towards Modern AI Models.**
+**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405). If you are samely interested in this track of papers, I would kindly appreciate it if you would like to contact with me. I am also interested in formal method for Quantum Computing and Software Testing Methods Towards Modern AI Models.**
 
 If you wish to access my personal homepages prior to 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
