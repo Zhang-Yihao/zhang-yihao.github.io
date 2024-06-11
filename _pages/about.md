@@ -53,7 +53,7 @@ Adversarial Training (AT), which adversarially perturb the input samples during 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Automata Extraction from Transformers
@@ -67,7 +67,7 @@ In modern machine (ML) learning systems, Transformer-based architectures have ac
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 ## Towards General Conceptual Model Editing via Adversarial Representation Engineering (Preprint)
