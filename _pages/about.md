@@ -19,14 +19,15 @@ redirect_from:
 
 I am Yihao Zhang (张益豪), a senior student at the School of Mathematical Sciences, Peking University (GPA 3.55/4). I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. Simultaneously, I am pursuing a Ph.D. in Applied Mathematics at the School of Mathematical Sciences, Peking University, thanks to the *Applied Mathematics Elite Program*. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
-My research interest includes formal methods, model checking, AI model explanation/verification/safety issues, AI aided automatic verification and transparency of large language models. I have published 7 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interests include formal methods, model checking, AI model explanation/verification/safety issues, AI-aided automatic verification, and transparency of large language models. I have published 7 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405). If you are samely interested in this track of papers, I would kindly appreciate it if you would like to contact with me. I am also interested in formal method for Quantum Computing and Software Testing Methods Towards Modern AI Models.**
+**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405). If you are interested in this track of papers, I would appreciate it if you contacted me. I am also interested in formal methods for Quantum Computing and Software Testing Methods Towards Modern AI Models. My email: jekyllzhang@gmail.com.**
 
 If you wish to access my personal homepages prior to 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
 
 # 🔥 News
+- *2024.06*: &nbsp;🎉 I am graduating from Peking University and starting my Ph.D. My undergraduate thesis, [Automata Extraction from Transformers](https://arxiv.org/pdf/2406.05564), is posted on arxiv.
 - *2024.05*: &nbsp;🎉 Our paper, [On the Duality Between Sharpness-Aware Minimization and Adversarial Training](https://arxiv.org/pdf/2402.15152), is accepted by ICML 2024.
 - *2024.04*: &nbsp;🎉 I finished my paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), which is posted on arxiv. Our [repository](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering) has got 5 stars🌟 on GitHub! 
 - *2024.03*: &nbsp;🔗 2 Papers (as first author and second-to-last author, respectively) accepted by ICLR 2024 R2-FM Workshop.
@@ -54,11 +55,25 @@ Adversarial Training (AT), which adversarially perturb the input samples during 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+## Automata Extraction from Transformers
+**Yihao Zhang**, Zeming Wei, Meng Sun${}^\dagger$
+
+In modern machine (ML) learning systems, Transformer-based architectures have achieved milestone success across a broad spectrum of tasks, yet understanding their operational mechanisms remains an open problem. To improve the transparency of ML systems, automata extraction methods, which interpret stateful ML models as automata typically through formal languages, have proven effective for explaining the mechanism of recurrent neural networks (RNNs). However, few works have been applied to this paradigm to Transformer models. In particular, understanding their processing of formal languages and identifying their limitations in this area remains unexplored. In this paper, we propose an automata extraction algorithm specifically designed for Transformer models. Treating the Transformer model as a black-box system, we track the model through the transformation process of their internal latent representations during their operations, and then use classical pedagogical approaches like L* algorithm to interpret them as deterministic finite-state automata (DFA). Overall, our study reveals how the Transformer model comprehends the structure of formal languages, which not only enhances the interpretability of the Transformer-based ML systems but also marks a crucial step toward a deeper understanding of how ML systems process formal languages. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Transfomer2DFA).
+
+
+[[pdf](https://arxiv.org/pdf/2406.05564)] [[arxiv](https://arxiv.org/abs/2406.05564)] [[code](https://github.com/Zhang-Yihao/Transfomer2DFA)]
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
   
 ## Towards General Conceptual Model Editing via Adversarial Representation Engineering (Preprint)
 **Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
 
-Recent research has introduced Representation Engineering (RepE) as a promising approach for understanding complex inner workings of large-scale models like Large Language Models (LLMs). However, finding practical and efficient methods to apply these representations for general and flexible model editing remains an open problem. Inspired by the Generative Adversarial Network (GAN) framework, we introduce a novel approach called Adversarial Representation Engineering (ARE). This method leverages RepE by using a representation sensor to guide the editing of LLMs, offering a unified and interpretable framework for conceptual model editing without degrading baseline performance. Our experiments on multiple conceptual editing confirm ARE's effectiveness. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
+Since the development of Large Language Models (LLMs) has achieved remarkable success, understanding and controlling their internal complex mechanisms has become an urgent problem. Recent research has attempted to interpret their behaviors through the lens of inner representation. However, developing practical and efficient methods for applying these representations for general and flexible model editing remains challenging. In this work, we explore how to use representation engineering methods to guide the editing of LLMs by deploying a representation sensor as an oracle. We first identify the importance of a robust and reliable sensor during editing, then propose an Adversarial Representation Engineering (ARE) framework to provide a unified and interpretable approach for conceptual model editing without compromising baseline performance. Experiments on multiple model editing paradigms demonstrate the effectiveness of ARE in various settings. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
 
 [[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering)]
 </div>
