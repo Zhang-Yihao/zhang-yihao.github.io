@@ -59,7 +59,7 @@ Adversarial Training (AT), which adversarially perturb the input samples during 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## Automata Extraction from Transformers
+## Automata Extraction from Transformers (Preprint)
 **Yihao Zhang**, Zeming Wei, Meng Sun${}^\dagger$
 
 In modern machine (ML) learning systems, Transformer-based architectures have achieved milestone success across a broad spectrum of tasks, yet understanding their operational mechanisms remains an open problem. To improve the transparency of ML systems, automata extraction methods, which interpret stateful ML models as automata typically through formal languages, have proven effective for explaining the mechanism of recurrent neural networks (RNNs). However, few works have been applied to this paradigm to Transformer models. In particular, understanding their processing of formal languages and identifying their limitations in this area remains unexplored. In this paper, we propose an automata extraction algorithm specifically designed for Transformer models. Treating the Transformer model as a black-box system, we track the model through the transformation process of their internal latent representations during their operations, and then use classical pedagogical approaches like L* algorithm to interpret them as deterministic finite-state automata (DFA). Overall, our study reveals how the Transformer model comprehends the structure of formal languages, which not only enhances the interpretability of the Transformer-based ML systems but also marks a crucial step toward a deeper understanding of how ML systems process formal languages. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Transfomer2DFA).
@@ -123,7 +123,7 @@ Chen Cheng\*, Xinzhi Yu\*, Haodong Wen\*, Jinsong Sun, Guanzhang Yue, **Yihao Zh
 [[pdf](https://arxiv.org/pdf/2404.18191)] [[arxiv](https://arxiv.org/abs/2404.18191)] [[code](https://github.com/InezYu0928/in-context-learning)]
 
 # 🎖 Honors and Awards
-- **Huaixin Bachelor**(怀新学士, Honours Degree), *2024*
+- **Huaixin Bachelor** (怀新学士, Honours Degree), *2024*
 - Selected for the **Elite Program** (拔尖计划, Graduate) in the School of Mathematical Sciences, Peking University.
 - **University Scholarship**, Peking University, *2023*
 - **Second prize**, Chinese Mathematics Competitions for Undergraduates (Beijing Division), *2023*
