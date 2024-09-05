@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
+I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group. 
+
+I got my bachelor's degree (Data Science, Math) from Peking University in 2024. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
 My research interests include formal methods, model checking, AI model explanation/verification/safety issues, AI-aided automatic verification, and transparency of large language models. I have published 7 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
