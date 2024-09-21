@@ -21,9 +21,9 @@ I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School
 
 I got my bachelor's degree (Data Science, Math) from Peking University in 2024. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
-My research interests include formal methods, model checking, AI model explanation/verification/safety issues, AI-aided automatic verification, and transparency of large language models. I have published 7 papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interests include mechanistic interpretability of large language models, formal methods, model checking, AI model explanation/verification/safety issues, and AI-aided automatic verification. I have published multiple papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405). If you are interested in this track of papers, I would appreciate it if you contacted me. I am also interested in formal methods for Quantum Computing and Software Testing Methods Towards Modern AI Models. My email: jekyllzhang@gmail.com.**
+**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405) and interpretability related work on LLMs. If you are interested in those tracks of papers, I would appreciate it if you contacted me. I am also interested in formal methods for Quantum Computing and formalizing Causality in Machine Learning. My email: jekyllzhang@gmail.com.**
 
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -134,6 +134,7 @@ Chen Cheng\*, Xinzhi Yu\*, Haodong Wen\*, Jinsong Sun, Guanzhang Yue, **Yihao Zh
 - *2024.09 - 2028.06 (expected)*, PhD, School of Mathematical Sciences, Peking University.
 
 # 💬 Talks
+- *2024.09*, Presented our work, [On the Duality Between Sharpness-Aware Minimization and Adversarial Training](https://arxiv.org/pdf/2402.15152), in Yantai University.
 - *2024.04*, Presented our work on [Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752) in an internal talk in Huawei.
 - *2023.06*, Presented my paper "Using Z3 for Formal Modeling and Verification of FNN Global Robustness" on SEKE 2023.
 
