@@ -28,6 +28,7 @@ My research interests include mechanistic interpretability of large language mod
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # 🔥 News
+- *2024.09*: &nbsp;🎉 Our paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering][(https://arxiv.org/pdf/2404.13752)], is accepted by NeurIPS 2024.
 - *2024.09*: &nbsp;✈️ I started my PhD career in Peking University!
 - *2024.07*: &nbsp;✈️ We presented [our paper](https://arxiv.org/pdf/2402.15152) in ICML 2024 main conference (poster).
 - *2024.06*: &nbsp;🎉 I am graduating from Peking University and starting my Ph.D. My undergraduate thesis, [Automata Extraction from Transformers](https://arxiv.org/pdf/2406.05564), is posted on arxiv.
@@ -55,6 +56,17 @@ Adversarial Training (AT), which adversarially perturb the input samples during 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+## Towards General Conceptual Model Editing via Adversarial Representation Engineering (NeurIPS 2024)
+**Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
+
+Since the development of Large Language Models (LLMs) has achieved remarkable success, understanding and controlling their internal complex mechanisms has become an urgent problem. Recent research has attempted to interpret their behaviors through the lens of inner representation. However, developing practical and efficient methods for applying these representations for general and flexible model editing remains challenging. In this work, we explore how to use representation engineering methods to guide the editing of LLMs by deploying a representation sensor as an oracle. We first identify the importance of a robust and reliable sensor during editing, then propose an Adversarial Representation Engineering (ARE) framework to provide a unified and interpretable approach for conceptual model editing without compromising baseline performance. Experiments on multiple model editing paradigms demonstrate the effectiveness of ARE in various settings. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
+
+[[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering)]
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -66,19 +78,6 @@ In modern machine (ML) learning systems, Transformer-based architectures have ac
 
 
 [[pdf](https://arxiv.org/pdf/2406.05564)] [[arxiv](https://arxiv.org/abs/2406.05564)] [[code](https://github.com/Zhang-Yihao/Transfomer2DFA)]
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-## Towards General Conceptual Model Editing via Adversarial Representation Engineering (Preprint)
-**Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
-
-Since the development of Large Language Models (LLMs) has achieved remarkable success, understanding and controlling their internal complex mechanisms has become an urgent problem. Recent research has attempted to interpret their behaviors through the lens of inner representation. However, developing practical and efficient methods for applying these representations for general and flexible model editing remains challenging. In this work, we explore how to use representation engineering methods to guide the editing of LLMs by deploying a representation sensor as an oracle. We first identify the importance of a robust and reliable sensor during editing, then propose an Adversarial Representation Engineering (ARE) framework to provide a unified and interpretable approach for conceptual model editing without compromising baseline performance. Experiments on multiple model editing paradigms demonstrate the effectiveness of ARE in various settings. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
-
-[[pdf](https://arxiv.org/pdf/2404.13752)] [[arxiv](https://arxiv.org/abs/2404.13752)] [[code](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering)]
 </div>
 </div>
 
