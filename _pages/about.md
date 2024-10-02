@@ -28,6 +28,7 @@ My research interests include mechanistic interpretability of large language mod
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # 🔥 News
+- *2024.09*: &nbsp;🎉 1 Paper (as second author) accepted by SETTA 2024.
 - *2024.09*: &nbsp;🎉 Our paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), is accepted by NeurIPS 2024.
 - *2024.09*: &nbsp;✈️ I started my PhD career in Peking University!
 - *2024.07*: &nbsp;✈️ We presented [our paper](https://arxiv.org/pdf/2402.15152) in ICML 2024 main conference (poster).
@@ -90,6 +91,12 @@ Recurrent Neural Networks (RNNs) have achieved tremendous success in processing 
 
 # Other Publications
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
+
+## MILE: A Mutation Testing Framework of In-Context Learning Systems (SETTA 2024)
+
+Zeming Wei, **Yihao Zhang**, Meng Sun${}^\dagger$
+
+[[pdf](https://arxiv.org/pdf/2409.04831.pdf)] [[arxiv](https://arxiv.org/abs/2409.04831)] [[code](https://github.com/weizeming/MILE)]
 
 ## MedTiny: Enhanced Mediator Modeling Language for Scalable Parallel Algorithms (QRS 2023)
 
