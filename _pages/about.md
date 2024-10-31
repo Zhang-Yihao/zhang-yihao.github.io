@@ -21,16 +21,25 @@ I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School
 
 I got my bachelor's degree (Data Science, Math) from Peking University in 2024. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
-My research interests include mechanistic interpretability of large language models, formal methods, model checking, AI model explanation/verification/safety issues, and AI-aided automatic verification. I have published multiple papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interests include:
+- Mechanistic Interpretability for Large Language Models
+- Causality in AI, Formalization and Verification of Causality-Related Issues
+- Large Language Model Alignment, Trustworthy LLM
+- Representation Engineering in LLM
+- AI Safety, Verifying Robustness/Fairness/Trustworthy Related Issues in AI
+- Automated Interactive Theorem Proving, AI4ITP
+- Formal Methods, Model Checking, Software Analysis, Program Verification
+- Formalizing and Verifying Quantum Computation Systems and Quantum AI Systems
+- Testing Technologies for AI System
 
-**Currently, I am following [representation-related works on LLMs](https://arxiv.org/abs/2310.01405) and interpretability related work on LLMs. If you are interested in those tracks of papers, I would appreciate it if you contacted me. I am also interested in formal methods for Quantum Computing and formalizing Causality in Machine Learning. My email: jekyllzhang@gmail.com.**
+I have published multiple papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉 1 Paper (as second author) accepted by SETTA 2024.
 - *2024.09*: &nbsp;🎉 Our paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), is accepted by NeurIPS 2024.
-- *2024.09*: &nbsp;✈️ I started my PhD career in Peking University!
+- *2024.09*: &nbsp;✈️ I started my PhD career at Peking University!
 - *2024.07*: &nbsp;✈️ We presented [our paper](https://arxiv.org/pdf/2402.15152) in ICML 2024 main conference (poster).
 - *2024.06*: &nbsp;🎉 I am graduating from Peking University and starting my Ph.D. My undergraduate thesis, [Automata Extraction from Transformers](https://arxiv.org/pdf/2406.05564), is posted on arxiv.
 - *2024.05*: &nbsp;🎉 Our paper, [On the Duality Between Sharpness-Aware Minimization and Adversarial Training](https://arxiv.org/pdf/2402.15152), is accepted by ICML 2024.
