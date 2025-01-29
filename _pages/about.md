@@ -22,8 +22,9 @@ I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School
 I got my bachelor's degree (Data Science, Math) from Peking University in 2024. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
 My research interests include:
-- Mechanistic Interpretability for Large Language Models
-- Causality in AI, Formalization and Verification of Causality-Related Issues
+- Safety, Interpretability and Social Value for Large Language Model-based Agents **(Currently Focusing On)**
+- Mechanistic Interpretability for Large Language Models **(Currently Focusing On)**
+- Causality in AI, Formalization and Verification of Causality-Related Issues **(Currently Focusing On)**
 - Large Language Model Alignment, Trustworthy LLM
 - Representation Engineering in LLM
 - AI Safety, Verifying Robustness/Fairness/Trustworthy Related Issues in AI
@@ -37,14 +38,16 @@ I have published multiple papers at different international conferences with tot
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉 2 Papers (as first author and second-to-last author, respectively) accepted by ICASSP.
+- *2024.11*: &nbsp;✈️ We presented [our paper](https://arxiv.org/pdf/2404.13752) in NeurIPS 2024 main conference (poster).
 - *2024.10*: &nbsp;🎉 We presented [our paper](https://arxiv.org/pdf/2402.15152) in 2nd Frontier Ph.D Forum hosted in Peking University.
 - *2024.09*: &nbsp;🎉 1 Paper (as second author) accepted by SETTA 2024.
-- *2024.09*: &nbsp;🎉 Our paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), is accepted by NeurIPS 2024.
+- *2024.09*: &nbsp;🎉 Our paper, [Adversarial Representation Engineering: A General Model Editing Framework for Large Language Models](https://arxiv.org/pdf/2404.13752), is accepted by NeurIPS 2024.
 - *2024.09*: &nbsp;✈️ I started my PhD career at Peking University!
 - *2024.07*: &nbsp;✈️ We presented [our paper](https://arxiv.org/pdf/2402.15152) in ICML 2024 main conference (poster).
 - *2024.06*: &nbsp;🎉 I am graduating from Peking University and starting my Ph.D. My undergraduate thesis, [Automata Extraction from Transformers](https://arxiv.org/pdf/2406.05564), is posted on arxiv.
 - *2024.05*: &nbsp;🎉 Our paper, [On the Duality Between Sharpness-Aware Minimization and Adversarial Training](https://arxiv.org/pdf/2402.15152), is accepted by ICML 2024.
-- *2024.04*: &nbsp;🎉 I finished my paper, [Towards General Conceptual Model Editing via Adversarial Representation Engineering](https://arxiv.org/pdf/2404.13752), which is posted on arxiv. Our [repository](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering) has got 5 stars🌟 on GitHub! 
+- *2024.04*: &nbsp;🎉 I finished my paper, [Adversarial Representation Engineering: A General Model Editing Framework for Large Language Models](https://arxiv.org/pdf/2404.13752), which is posted on arxiv. Our [repository](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering) has got 5 stars🌟 on GitHub! 
 - *2024.03*: &nbsp;🎉 2 Papers (as first author and second-to-last author, respectively) accepted by ICLR 2024 R2-FM Workshop.
 - *2023.12*: &nbsp;💸 My application for the Beijing Natural Science Foundation Undergraduate "Initiating Research" Program has been approved.
 - *2023.10*: &nbsp;✈️ I am now going to Singapore Management University for a six-month exchange.
@@ -70,7 +73,7 @@ Adversarial Training (AT), which adversarially perturb the input samples during 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/ARE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-## Towards General Conceptual Model Editing via Adversarial Representation Engineering (NeurIPS 2024)
+## Adversarial Representation Engineering: A General Model Editing Framework for Large Language Models (NeurIPS 2024)
 **Yihao Zhang**, Zeming Wei, Jun Sun${}^\dagger$, Meng Sun${}^\dagger$
 
 Since the development of Large Language Models (LLMs) has achieved remarkable success, understanding and controlling their internal complex mechanisms has become an urgent problem. Recent research has attempted to interpret their behaviors through the lens of inner representation. However, developing practical and efficient methods for applying these representations for general and flexible model editing remains challenging. In this work, we explore how to use representation engineering methods to guide the editing of LLMs by deploying a representation sensor as an oracle. We first identify the importance of a robust and reliable sensor during editing, then propose an Adversarial Representation Engineering (ARE) framework to provide a unified and interpretable approach for conceptual model editing without compromising baseline performance. Experiments on multiple model editing paradigms demonstrate the effectiveness of ARE in various settings. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Adversarial-Representation-Engineering).
@@ -79,28 +82,14 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/extraction.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-## Automata Extraction from Transformers (Preprint)
-**Yihao Zhang**, Zeming Wei, Meng Sun${}^\dagger$
-
-In modern machine (ML) learning systems, Transformer-based architectures have achieved milestone success across a broad spectrum of tasks, yet understanding their operational mechanisms remains an open problem. To improve the transparency of ML systems, automata extraction methods, which interpret stateful ML models as automata typically through formal languages, have proven effective for explaining the mechanism of recurrent neural networks (RNNs). However, few works have been applied to this paradigm to Transformer models. In particular, understanding their processing of formal languages and identifying their limitations in this area remains unexplored. In this paper, we propose an automata extraction algorithm specifically designed for Transformer models. Treating the Transformer model as a black-box system, we track the model through the transformation process of their internal latent representations during their operations, and then use classical pedagogical approaches like L* algorithm to interpret them as deterministic finite-state automata (DFA). Overall, our study reveals how the Transformer model comprehends the structure of formal languages, which not only enhances the interpretability of the Transformer-based ML systems but also marks a crucial step toward a deeper understanding of how ML systems process formal languages. Code and data are available at [this https URL](https://github.com/Zhang-Yihao/Transfomer2DFA).
-
-
-[[pdf](https://arxiv.org/pdf/2406.05564)] [[arxiv](https://arxiv.org/abs/2406.05564)] [[code](https://github.com/Zhang-Yihao/Transfomer2DFA)]
-</div>
-</div>
-
-## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (JLAMP, Vol 136)
-Zeming Wei, Xiyue Zhang, **Yihao Zhang**, Meng Sun${}^\dagger$
-
-Recurrent Neural Networks (RNNs) have achieved tremendous success in processing sequential data, yet understanding and analyzing their behaviours remains a significant challenge. To this end, many efforts have been made to extract finite automata from RNNs, which are more amenable for analysis and explanation. However, existing approaches like exact learning and compositional approaches for model extraction have limitations in either scalability or precision. In this paper, we propose a novel framework of Weighted Finite Automata (WFA) extraction and explanation to tackle the limitations for natural language tasks. First, to address the transition sparsity and context loss problems we identified in WFA extraction for natural language tasks, we propose an empirical method to complement missing rules in the transition diagram, and adjust transition matrices to enhance the context-awareness of the WFA. We also propose two data augmentation tactics to track more dynamic behaviours of RNN, which further allows us to improve the extraction precision. Based on the extracted model, we propose an explanation method for RNNs including a word embedding method – Transition Matrix Embeddings (TME) and TME-based task oriented explanation for the target RNN. Our evaluation demonstrates the advantage of our method in extraction precision than existing approaches, and the effectiveness of TME-based explanation method in applications to pretraining and adversarial example generation.
-
-[[pdf](https://arxiv.org/pdf/2306.14040)] [[arxiv](https://arxiv.org/abs/2306.14040)] [[code](https://github.com/weizeming/Extract_WFA_from_RNN_for_NL)]
-
 # Other Publications
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
+
+## Automata Extraction from Transformers (Preprint)
+
+**Yihao Zhang**, Zeming Wei, Meng Sun${}^\dagger$
+
+[[pdf](https://arxiv.org/pdf/2406.05564)] [[arxiv](https://arxiv.org/abs/2406.05564)] [[code](https://github.com/Zhang-Yihao/Transfomer2DFA)]
 
 ## MILE: A Mutation Testing Framework of In-Context Learning Systems (SETTA 2024)
 
@@ -137,6 +126,12 @@ Zeming Wei\*${}^\dagger$, Jingyu Zhu\*, **Yihao Zhang**\*
 Chen Cheng\*, Xinzhi Yu\*, Haodong Wen\*, Jinsong Sun, Guanzhang Yue, **Yihao Zhang**, Zeming Wei${}^\dagger$
 
 [[pdf](https://arxiv.org/pdf/2404.18191)] [[arxiv](https://arxiv.org/abs/2404.18191)] [[code](https://github.com/InezYu0928/in-context-learning)]
+
+## Weighted automata extraction and explanation of recurrent neural networks for natural language tasks (JLAMP, Vol 136)
+
+Zeming Wei, Xiyue Zhang, **Yihao Zhang**, Meng Sun${}^\dagger$
+
+[[pdf](https://arxiv.org/pdf/2306.14040)] [[arxiv](https://arxiv.org/abs/2306.14040)] [[code](https://github.com/weizeming/Extract_WFA_from_RNN_for_NL)]
 
 # 🎖 Honors and Awards
 - **Huaixin Bachelor** (怀新学士, Honours Degree), *2024*
