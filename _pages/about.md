@@ -128,6 +128,7 @@ If you wish to access my personal homepage before 2024, please click [here](http
 {% include publications-other.html %}
 
 # 🎖 Honors and Awards
+- **President's Scholarship**, Peking University, *2025*
 - **Huaixin Bachelor** (怀新学士, Honours Degree), *2024*
 - Selected for the **Elite Program** (拔尖计划, Graduate) in the School of Mathematical Sciences, Peking University.
 - **University Scholarship**, Peking University, *2023*
