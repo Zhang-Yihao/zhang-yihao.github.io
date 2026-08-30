@@ -267,7 +267,7 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 
 <div class="advisors">
   <div class="advisor-card reveal">
-    <div class="advisor-card__avatar advisor-card__avatar--initials">MS</div>
+    <img src="images/mengsun.jpg" alt="Meng Sun">
     <div>
       <h4><a href="https://www.math.pku.edu.cn/teachers/sunm/index.html">Meng Sun</a></h4>
       <p>Professor, Peking University</p>
