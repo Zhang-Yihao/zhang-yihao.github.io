@@ -20,7 +20,7 @@ redirect_from:
   <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
   <p class="hero__title">北京大学数学科学学院 · 应用数学博士三年级</p>
-  <p class="hero__company">现于腾讯元宝业务安全中心任职</p>
+  <p class="hero__company">现于腾讯元宝安全中心任职</p>
   <div class="hero__focus">
     <span class="hero__focus-label">主要研究方向</span>
     <span class="hero__focus-title">大模型智能体安全</span>
@@ -73,8 +73,8 @@ redirect_from:
   <div class="exp-item exp-item--current reveal">
     <div class="exp-item__period">2026.03 — 至今</div>
     <div class="exp-item__body">
-      <h3>腾讯元宝业务安全中心<span class="current-badge">在职</span></h3>
-      <p>Tencent Yuanbao Business Security Center</p>
+      <h3>腾讯元宝安全中心<span class="current-badge">在职</span></h3>
+      <p>Tencent Yuanbao Security Center</p>
     </div>
   </div>
   <div class="exp-item reveal">
@@ -89,7 +89,7 @@ redirect_from:
 <h1 id="news">🔥 新闻</h1>
 
 <div class="timeline">
-  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 我入职 <strong>腾讯元宝业务安全中心</strong>。</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 我入职 <strong>腾讯元宝安全中心</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a> 发表于 <strong>Journal of Systems Architecture</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 我从字节跳动 Flow 安全离职。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.11</span><div class="timeline__content">🏆 我们的论文 <a href="https://doi.org/10.1007/978-981-95-4213-0_2">Automata-Based Steering of Large Language Models for Diverse Structured Generation</a> 获得 <strong>ICFEM 2025 最佳论文奖</strong>！</div></div>

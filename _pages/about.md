@@ -20,7 +20,7 @@ redirect_from:
   <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
   <p class="hero__title">Third-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
-  <p class="hero__company">Currently @ Tencent Yuanbao Business Security Center</p>
+  <p class="hero__company">Currently @ Tencent Yuanbao Security Center</p>
   <div class="hero__focus">
     <span class="hero__focus-label">Primary Research Focus</span>
     <span class="hero__focus-title">LLM Agent Safety</span>
@@ -73,8 +73,8 @@ If you wish to access my personal homepage before 2024, please click [here](http
   <div class="exp-item exp-item--current reveal">
     <div class="exp-item__period">2026.03 — Present</div>
     <div class="exp-item__body">
-      <h3>Tencent Yuanbao Business Security Center<span class="current-badge">Current</span></h3>
-      <p>腾讯元宝业务安全中心</p>
+      <h3>Tencent Yuanbao Security Center<span class="current-badge">Current</span></h3>
+      <p>腾讯元宝安全中心</p>
     </div>
   </div>
   <div class="exp-item reveal">
@@ -89,7 +89,7 @@ If you wish to access my personal homepage before 2024, please click [here](http
 # 🔥 News
 
 <div class="timeline">
-  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 I joined <strong>Tencent Yuanbao Business Security Center</strong> (腾讯元宝业务安全中心).</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 I joined <strong>Tencent Yuanbao Security Center</strong> (腾讯元宝安全中心).</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a>, is published in <strong>Journal of Systems Architecture</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 I left ByteDance Flow Security.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.11</span><div class="timeline__content">🏆 Our paper, <a href="https://doi.org/10.1007/978-981-95-4213-0_2">Automata-Based Steering of Large Language Models for Diverse Structured Generation</a>, won the <strong>Best Paper Award</strong> at ICFEM 2025!</div></div>
