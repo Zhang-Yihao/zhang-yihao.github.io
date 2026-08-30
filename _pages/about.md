@@ -20,8 +20,9 @@ redirect_from:
   <div class="hero__avatar"><img src="images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
   <p class="hero__title">Third-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
+  <p class="hero__focus">Primary Research Focus · LLM Agent Safety</p>
   <div class="hero__typed">I research&nbsp;
-    <span class="typed" data-typed='["Formal Methods for LLM Agents","Jailbreaking LLM","Prompt Injection","LLM Agent Safety & Social Value","Mechanistic Interpretability for LLMs","Representation Engineering in LLM","AI Safety & Robustness Verification","Automated Interactive Theorem Proving (AI4ITP)"]'></span><span class="typed-cursor">|</span>
+    <span class="typed" data-typed='["LLM Agent Safety","Formal Methods for LLM Agents","Jailbreaking LLM","Prompt Injection","Mechanistic Interpretability for LLMs","Representation Engineering in LLM","AI Safety & Robustness Verification","Automated Interactive Theorem Proving (AI4ITP)"]'></span><span class="typed-cursor">|</span>
   </div>
   <div class="hero__social">
     <a href="mailto:zhangyihao@stu.pku.edu.cn" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
@@ -30,10 +31,10 @@ redirect_from:
     <a href="https://www.researchgate.net/profile/Zhang-Yihao-3" title="ResearchGate" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
   </div>
   <div class="hero__tags">
+    <span class="tag">LLM Agent Safety</span>
     <span class="tag">Formal Methods for LLM Agents</span>
     <span class="tag">Jailbreaking LLM</span>
     <span class="tag">Prompt Injection</span>
-    <span class="tag">LLM Agents Safety</span>
     <span class="tag">Mechanistic Interpretability</span>
     <span class="tag">Representation Engineering</span>
     <span class="tag">AI Safety &amp; Verification</span>
@@ -49,10 +50,10 @@ I got my bachelor's degree (Data Science, Math) from Peking University in 2024. 
 
 My research interests include:
 
-- Formal Methods for LLM Agents **(Currently Focusing On)**
-- Jailbreaking LLM **(Currently Focusing On)**
-- Prompt Injection **(Currently Focusing On)**
-- Safety, Interpretability and Social Value for Large Language Model-based Agents
+- LLM Agent Safety
+- Formal Methods for LLM Agents
+- Jailbreaking LLM
+- Prompt Injection
 - Mechanistic Interpretability for Large Language Models
 - Representation Engineering in LLM
 - AI Safety, Verifying Robustness/Fairness/Trustworthy Related Issues in AI
@@ -60,11 +61,17 @@ My research interests include:
 
 I have published multiple papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Website Hits](https://hits.sh/zhang-yihao.github.io.svg?label=Website%20Hits&labelColor=555555&color=22d3ee&style=flat)](https://hits.sh/zhang-yihao.github.io/)
+If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
 # 🔥 News
 
 <div class="timeline">
+  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a>, is published in <strong>Journal of Systems Architecture</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.11</span><div class="timeline__content">🏆 Our paper, <a href="https://doi.org/10.1007/978-981-95-4213-0_2">Automata-Based Steering of Large Language Models for Diverse Structured Generation</a>, won the <strong>Best Paper Award</strong> at ICFEM 2025!</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.10</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.56553/popets-2025-0126">Robust and Efficient Watermarking of Large Language Models Using Error Correction Codes</a>, is published in <strong>PoPETs 2025</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.07</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.18293/SEKE2025-057">Component Composition in MedTiny: Multi-Level Constructs and Operational Semantics</a>, is accepted by <strong>SEKE 2025</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.07</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1109/QRS-C65679.2025.00090">Towards Formal Modeling and Verification of the Stellar Consensus Protocol in Z3</a>, is accepted by <strong>QRS 2025</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1145/3672608.3707846">MedTiny Code Generation for Enhancing RegLang Smart Contract Reliability</a>, is accepted by <strong>SAC 2025</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.04</span><div class="timeline__content">🎉 Our paper, <a href="https://arxiv.org/pdf/2405.01229">Boosting jailbreak attack with momentum</a> is accepted as an <strong>Oral Paper</strong> in ICASSP 2025.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.12</span><div class="timeline__content">🎉 2 Papers (as first author and second-to-last author, respectively) accepted by ICASSP.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.11</span><div class="timeline__content">✈️ We presented <a href="https://arxiv.org/pdf/2404.13752">our paper</a> in NeurIPS 2024 main conference (poster).</div></div>
@@ -145,7 +152,7 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 </div>
 
 <div class="pub reveal">
-  <h3>Automata-Based Steering of Large Language Models for Diverse Structured Generation (ICFEM 2025)</h3>
+  <h3>Automata-Based Steering of Large Language Models for Diverse Structured Generation (ICFEM 2025 · <span class="best-paper">Best Paper</span>)</h3>
   <p class="pub__authors">Xiaokun Luan, Zemin Wei, <strong>Yihao Zhang</strong>, Meng Sun</p>
   <p><a href="https://doi.org/10.1007/978-981-95-4213-0_2">doi</a> <a href="https://arxiv.org/abs/2511.11018">arxiv</a></p>
 </div>
@@ -251,11 +258,31 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 - *2023.06*, Presented my paper "Using Z3 for Formal Modeling and Verification of FNN Global Robustness" on SEKE 2023.
 
 # 💻 Projects
+- *2026-2029*, 大模型驱动智能体的安全保障 (Safety Assurance of LLM-Driven Agents), **Key Member**, NSFC General Program (国家自然科学基金面上项目).
+- *2025-2027*, 大模型特征重建及操作技术 (LLM Feature Reconstruction & Manipulation), **Key Member**, Industry Collaboration (企业合作).
 - *2023-2025*, Study on the interpretability of large language model architecture and algorithm, Program Director.
 - *2022-2025*, Trustworthy guarantee of deep learning system, Member.
 
+# 👨‍🏫 Advisors
+
+<div class="advisors">
+  <div class="advisor-card reveal">
+    <div class="advisor-card__avatar advisor-card__avatar--initials">MS</div>
+    <div>
+      <h4><a href="https://www.math.pku.edu.cn/teachers/sunm/index.html">Meng Sun</a></h4>
+      <p>Professor, Peking University</p>
+    </div>
+  </div>
+  <div class="advisor-card reveal">
+    <img src="https://sunjun.site/wp-content/uploads/2019/07/cropped-photo-1.jpg" alt="Jun Sun">
+    <div>
+      <h4><a href="https://sunjun.site/">Jun Sun</a></h4>
+      <p>Professor, Singapore Management University</p>
+    </div>
+  </div>
+</div>
+
 # 🔗 Links
-- 👨‍🏫 **Advisors**: [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) (PKU), [Jun Sun](https://sunjun.site/) (SMU).
 - 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiaokun Luan](https://luan-xiaokun.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/), [Huanran Chen](https://huanranchen.github.io/)
 {% comment %}
 ## 📚 Academic Links

@@ -153,11 +153,13 @@ hr {
   font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: -0.01em;
-  background: var(--grad);
+  background: linear-gradient(110deg, #fff 20%, var(--cyan) 45%, var(--violet) 70%, #fff 95%);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  animation: shimmer 6s linear infinite;
 }
 
 .greedy-nav .visible-links a.masthead__brand:hover {
@@ -719,7 +721,7 @@ h1, h2, h3, .anchor {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
-  .hero__name, .hero__avatar::before { animation: none; }
+  .hero__name, .hero__avatar::before, .masthead__brand { animation: none; }
 }
 
 /* ==========================================================================
@@ -739,4 +741,145 @@ h1, h2, h3, .anchor {
 @media (max-width: 768px) {
   .hero { padding: 2.2rem 0.6rem 1.6rem; }
   .paper-box-image img { max-width: 100%; }
+}
+
+/* ==========================================================================
+   Hero focus badge
+   ========================================================================== */
+
+.hero__focus {
+  display: inline-block;
+  margin: 0.5em 0 0.2em;
+  padding: 0.42em 1.1em;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--grad);
+  box-shadow: 0 0 22px rgba(139, 92, 246, 0.45);
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Advisor cards
+   ========================================================================== */
+
+.advisors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.2rem 0 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .advisors { grid-template-columns: 1fr; }
+}
+
+.advisor-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(148, 163, 184, 0.03);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.advisor-card:hover {
+  border-color: rgba(34, 211, 238, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.advisor-card img,
+.advisor-card__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--border-strong);
+}
+
+.advisor-card__avatar--initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #fff;
+  background: var(--grad);
+  border: none;
+}
+
+.advisor-card h4 {
+  margin: 0 0 0.2em;
+  font-size: 1rem;
+}
+
+.advisor-card h4 a {
+  color: var(--text);
+  text-decoration: none;
+  background-image: none;
+}
+
+.advisor-card h4 a:hover {
+  color: var(--cyan);
+  text-shadow: 0 0 12px rgba(34, 211, 238, 0.4);
+}
+
+.advisor-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* ==========================================================================
+   Best Paper badge
+   ========================================================================== */
+
+.best-paper {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border-radius: 6px;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: #1a1200;
+  background: linear-gradient(120deg, #fbbf24, #f59e0b);
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.page__footer footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em 1.5em;
+  text-align: center;
+}
+
+.page__footer-visits {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.page__footer-visits i {
+  margin-right: 0.4em;
+  color: var(--cyan);
+}
+
+.page__footer-visits .dot {
+  margin: 0 0.5em;
+  color: var(--dim);
+}
+
+.page__footer-copyright {
+  color: var(--dim);
 }
