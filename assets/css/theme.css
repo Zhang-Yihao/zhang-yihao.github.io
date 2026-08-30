@@ -811,7 +811,7 @@ html[data-theme="light"] .ctrl-btn--theme .fa-sun { display: none; }
 html[data-theme="light"] .ctrl-btn--theme .fa-moon { display: inline-block; }
 
 @media (max-width: 768px) {
-  .masthead__inner-wrap { padding-right: 112px; }
+  .masthead__inner-wrap { padding-right: 120px; }
   .greedy-nav button { right: 0; }
 }
 

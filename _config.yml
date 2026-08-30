@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "Zhang Yihao"
 description              : "Zhang Yihao's academic homepage. "
+url                      : "https://zhangyihao.site"
 repository               : "Zhang-Yihao/zhang-yihao.github.io"
 google_scholar_stats_use_cdn : true
 
