@@ -222,12 +222,13 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    initParticles();
-    initReveal();
-    initTyped();
-    initScrollSpy();
-    initTagToggle();
-    initSmoothScroll();
-    initThemeToggle();
+    function safe(fn) { try { fn(); } catch (e) {} }
+    safe(initThemeToggle);
+    safe(initParticles);
+    safe(initReveal);
+    safe(initTyped);
+    safe(initScrollSpy);
+    safe(initTagToggle);
+    safe(initSmoothScroll);
   });
 })();

@@ -17,9 +17,10 @@ redirect_from:
 
 <!-- ===================== HERO ===================== -->
 <div class="hero">
-  <div class="hero__avatar"><img src="images/head.png" alt="Zhang Yihao"></div>
+  <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
   <p class="hero__title">Third-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
+  <p class="hero__company">Currently @ Tencent Yuanbao Business Security Center</p>
   <div class="hero__focus">
     <span class="hero__focus-label">Primary Research Focus</span>
     <span class="hero__focus-title">LLM Agent Safety</span>
@@ -66,16 +67,38 @@ I have published multiple papers at different international conferences with tot
 
 If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite).
 
+# 💼 Experience
+
+<div class="experience">
+  <div class="exp-item exp-item--current reveal">
+    <div class="exp-item__period">2026.03 — Present</div>
+    <div class="exp-item__body">
+      <h3>Tencent Yuanbao Business Security Center<span class="current-badge">Current</span></h3>
+      <p>腾讯元宝业务安全中心</p>
+    </div>
+  </div>
+  <div class="exp-item reveal">
+    <div class="exp-item__period">2025.05 — 2025.12</div>
+    <div class="exp-item__body">
+      <h3>ByteDance Flow Security</h3>
+      <p>字节跳动 Flow 安全</p>
+    </div>
+  </div>
+</div>
+
 # 🔥 News
 
 <div class="timeline">
+  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 I joined <strong>Tencent Yuanbao Business Security Center</strong> (腾讯元宝业务安全中心).</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a>, is published in <strong>Journal of Systems Architecture</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 I left ByteDance Flow Security.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.11</span><div class="timeline__content">🏆 Our paper, <a href="https://doi.org/10.1007/978-981-95-4213-0_2">Automata-Based Steering of Large Language Models for Diverse Structured Generation</a>, won the <strong>Best Paper Award</strong> at ICFEM 2025!</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.10</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.56553/popets-2025-0126">Robust and Efficient Watermarking of Large Language Models Using Error Correction Codes</a>, is published in <strong>PoPETs 2025</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.09</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.18293/SEKE2025-057">Component Composition in MedTiny: Multi-Level Constructs and Operational Semantics</a>, is accepted by <strong>SEKE 2025</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.07</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1109/QRS-C65679.2025.00090">Towards Formal Modeling and Verification of the Stellar Consensus Protocol in Z3</a>, is accepted by <strong>QRS 2025</strong>.</div></div>
-  <div class="timeline__item reveal"><span class="timeline__date">2025.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1145/3672608.3707846">MedTiny Code Generation for Enhancing RegLang Smart Contract Reliability</a>, is accepted by <strong>SAC 2025</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.05</span><div class="timeline__content">🏢 I joined <strong>ByteDance Flow Security</strong> (字节跳动 Flow 安全).</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.04</span><div class="timeline__content">🎉 Our paper, <a href="https://arxiv.org/pdf/2405.01229">Boosting jailbreak attack with momentum</a> is accepted as an <strong>Oral Paper</strong> in ICASSP 2025.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1145/3672608.3707846">MedTiny Code Generation for Enhancing RegLang Smart Contract Reliability</a>, is accepted by <strong>SAC 2025</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.12</span><div class="timeline__content">🎉 2 Papers (as first author and second-to-last author, respectively) accepted by ICASSP.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.11</span><div class="timeline__content">✈️ We presented <a href="https://arxiv.org/pdf/2404.13752">our paper</a> in NeurIPS 2024 main conference (poster).</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.10</span><div class="timeline__content">🎉 We presented <a href="https://arxiv.org/pdf/2402.15152">our paper</a> in 2nd Frontier Ph.D Forum hosted in Peking University.</div></div>
@@ -130,14 +153,14 @@ If you wish to access my personal homepage before 2024, please click [here](http
 
 <div class="advisors">
   <a class="advisor-card reveal" href="https://www.math.pku.edu.cn/teachers/sunm/index.html" target="_blank" rel="noopener">
-    <img src="images/mengsun.jpg" alt="Meng Sun">
+    <img src="/images/mengsun.jpg" alt="Meng Sun">
     <div class="advisor-card__info">
       <h4>Meng Sun</h4>
       <p>Professor, Peking University</p>
     </div>
   </a>
   <a class="advisor-card reveal" href="https://sunjun.site/" target="_blank" rel="noopener">
-    <img src="images/junsun.jpg" alt="Jun Sun">
+    <img src="/images/junsun.jpg" alt="Jun Sun">
     <div class="advisor-card__info">
       <h4>Jun Sun</h4>
       <p>Professor, Singapore Management University</p>

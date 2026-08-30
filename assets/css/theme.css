@@ -746,29 +746,23 @@ body {
    ========================================================================== */
 
 .masthead__inner-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.masthead__inner-wrap::after {
-  display: none;
-}
-
-.masthead__menu {
-  flex: 1 1 auto;
-  min-width: 0;
+  position: relative;
+  padding-right: 112px;
 }
 
 .masthead__controls {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-left: 1rem;
-  flex-shrink: 0;
+  z-index: 5;
 }
 
 .ctrl-btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -784,20 +778,41 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1;
-  transition: all 0.2s ease;
+  overflow: hidden;
+  transition: color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.ctrl-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.28) 50%, transparent 70%);
+  transform: skewX(-20deg);
+  transition: left 0.5s ease;
 }
 
 .ctrl-btn:hover {
   color: var(--cyan);
   border-color: var(--cyan);
   box-shadow: var(--glow-cyan);
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.ctrl-btn:hover::after {
+  left: 120%;
 }
 
 .ctrl-btn--theme .fa-sun { display: inline-block; }
 .ctrl-btn--theme .fa-moon { display: none; }
 html[data-theme="light"] .ctrl-btn--theme .fa-sun { display: none; }
 html[data-theme="light"] .ctrl-btn--theme .fa-moon { display: inline-block; }
+
+@media (max-width: 768px) {
+  .masthead__inner-wrap { padding-right: 96px; }
+}
 
 /* ==========================================================================
    Light theme overrides
@@ -870,6 +885,88 @@ html[data-theme="light"] .page__footer {
 }
 
 /* ==========================================================================
+   Hero company line
+   ========================================================================== */
+
+.hero__company {
+  margin: 0.4em 0 0.2em;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--cyan);
+}
+
+/* ==========================================================================
+   Experience
+   ========================================================================== */
+
+.experience {
+  margin: 1.2rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.exp-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.05rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(148, 163, 184, 0.03);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.exp-item:hover {
+  border-color: rgba(34, 211, 238, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
+.exp-item--current {
+  border-color: rgba(34, 211, 238, 0.35);
+  background: linear-gradient(180deg, rgba(34, 211, 238, 0.06), rgba(148, 163, 184, 0.02));
+}
+
+.exp-item__period {
+  flex-shrink: 0;
+  min-width: 130px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--cyan);
+  padding-top: 0.18em;
+}
+
+.exp-item__body h3 {
+  margin: 0 0 0.15em;
+  font-size: 1.02rem;
+  color: var(--text);
+}
+
+.exp-item__body p {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.current-badge {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.1em 0.55em;
+  border-radius: 6px;
+  font-size: 0.7em;
+  font-weight: 700;
+  vertical-align: middle;
+  color: #fff;
+  background: linear-gradient(120deg, var(--cyan), var(--violet));
+}
+
+@media (max-width: 640px) {
+  .exp-item { flex-direction: column; gap: 0.3rem; }
+  .exp-item__period { min-width: 0; }
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
 
@@ -927,7 +1024,7 @@ html[data-theme="light"] .page__footer {
   align-items: center;
   gap: 1rem;
   padding: 1rem 1.2rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   background: rgba(148, 163, 184, 0.03);
   color: inherit;

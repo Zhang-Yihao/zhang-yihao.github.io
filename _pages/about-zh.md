@@ -17,9 +17,10 @@ redirect_from:
 
 <!-- ===================== HERO ===================== -->
 <div class="hero">
-  <div class="hero__avatar"><img src="images/head.png" alt="Zhang Yihao"></div>
+  <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
   <p class="hero__title">北京大学数学科学学院 · 应用数学博士三年级</p>
+  <p class="hero__company">现于腾讯元宝业务安全中心任职</p>
   <div class="hero__focus">
     <span class="hero__focus-label">主要研究方向</span>
     <span class="hero__focus-title">大模型智能体安全</span>
@@ -66,14 +67,36 @@ redirect_from:
 
 如需访问我 2024 年之前的个人主页，请点击 [这里](https://zhang-yihao.github.io/oldsite)。
 
+<h1 id="experience">💼 工作经历</h1>
+
+<div class="experience">
+  <div class="exp-item exp-item--current reveal">
+    <div class="exp-item__period">2026.03 — 至今</div>
+    <div class="exp-item__body">
+      <h3>腾讯元宝业务安全中心<span class="current-badge">在职</span></h3>
+      <p>Tencent Yuanbao Business Security Center</p>
+    </div>
+  </div>
+  <div class="exp-item reveal">
+    <div class="exp-item__period">2025.05 — 2025.12</div>
+    <div class="exp-item__body">
+      <h3>字节跳动 Flow 安全</h3>
+      <p>ByteDance Flow Security</p>
+    </div>
+  </div>
+</div>
+
 <h1 id="news">🔥 新闻</h1>
 
 <div class="timeline">
+  <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 我入职 <strong>腾讯元宝业务安全中心</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a> 发表于 <strong>Journal of Systems Architecture</strong>。</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 我从字节跳动 Flow 安全离职。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.11</span><div class="timeline__content">🏆 我们的论文 <a href="https://doi.org/10.1007/978-981-95-4213-0_2">Automata-Based Steering of Large Language Models for Diverse Structured Generation</a> 获得 <strong>ICFEM 2025 最佳论文奖</strong>！</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.10</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.56553/popets-2025-0126">Robust and Efficient Watermarking of Large Language Models Using Error Correction Codes</a> 发表于 <strong>PoPETs 2025</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.09</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.18293/SEKE2025-057">Component Composition in MedTiny: Multi-Level Constructs and Operational Semantics</a> 被 <strong>SEKE 2025</strong> 录用。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.07</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.1109/QRS-C65679.2025.00090">Towards Formal Modeling and Verification of the Stellar Consensus Protocol in Z3</a> 被 <strong>QRS 2025</strong> 录用。</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2025.05</span><div class="timeline__content">🏢 我入职 <strong>字节跳动 Flow 安全</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.04</span><div class="timeline__content">🎉 我们的论文 <a href="https://arxiv.org/pdf/2405.01229">Boosting jailbreak attack with momentum</a> 被 <strong>ICASSP 2025</strong> 录用为 <strong>Oral 论文</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.03</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.1145/3672608.3707846">MedTiny Code Generation for Enhancing RegLang Smart Contract Reliability</a> 被 <strong>SAC 2025</strong> 录用。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2024.12</span><div class="timeline__content">🎉 2 篇论文被 ICASSP 录用（分别为第一作者与倒数第二作者）。</div></div>
@@ -130,14 +153,14 @@ redirect_from:
 
 <div class="advisors">
   <a class="advisor-card reveal" href="https://www.math.pku.edu.cn/teachers/sunm/index.html" target="_blank" rel="noopener">
-    <img src="images/mengsun.jpg" alt="Meng Sun">
+    <img src="/images/mengsun.jpg" alt="Meng Sun">
     <div class="advisor-card__info">
       <h4>Meng Sun</h4>
       <p>北京大学 · 教授</p>
     </div>
   </a>
   <a class="advisor-card reveal" href="https://sunjun.site/" target="_blank" rel="noopener">
-    <img src="images/junsun.jpg" alt="Jun Sun">
+    <img src="/images/junsun.jpg" alt="Jun Sun">
     <div class="advisor-card__info">
       <h4>Jun Sun</h4>
       <p>新加坡管理大学 · 教授</p>
