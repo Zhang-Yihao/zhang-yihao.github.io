@@ -19,9 +19,9 @@ redirect_from:
 <div class="hero">
   <div class="hero__avatar"><img src="images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
-  <p class="hero__title">First-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
+  <p class="hero__title">Third-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
   <div class="hero__typed">I research&nbsp;
-    <span class="typed" data-typed='["Safety, Interpretability & Social Value for LLM Agents","Mechanistic Interpretability for LLMs","Causality in AI","LLM Alignment & Trustworthy LLM","Representation Engineering in LLM","AI Safety & Robustness Verification","Automated Interactive Theorem Proving (AI4ITP)","Formal Methods & Model Checking","Verifying Quantum Computation Systems","Testing Technologies for AI Systems"]'></span><span class="typed-cursor">|</span>
+    <span class="typed" data-typed='["Formal Methods for LLM Agents","Jailbreaking LLM","Prompt Injection","LLM Agent Safety & Social Value","Mechanistic Interpretability for LLMs","Representation Engineering in LLM","AI Safety & Robustness Verification","Automated Interactive Theorem Proving (AI4ITP)"]'></span><span class="typed-cursor">|</span>
   </div>
   <div class="hero__social">
     <a href="mailto:zhangyihao@stu.pku.edu.cn" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
@@ -30,41 +30,37 @@ redirect_from:
     <a href="https://www.researchgate.net/profile/Zhang-Yihao-3" title="ResearchGate" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
   </div>
   <div class="hero__tags">
+    <span class="tag">Formal Methods for LLM Agents</span>
+    <span class="tag">Jailbreaking LLM</span>
+    <span class="tag">Prompt Injection</span>
     <span class="tag">LLM Agents Safety</span>
     <span class="tag">Mechanistic Interpretability</span>
-    <span class="tag">Causality in AI</span>
-    <span class="tag">LLM Alignment</span>
     <span class="tag">Representation Engineering</span>
     <span class="tag">AI Safety &amp; Verification</span>
     <span class="tag">Automated Theorem Proving</span>
-    <span class="tag">Formal Methods</span>
-    <span class="tag">Quantum Systems</span>
-    <span class="tag">AI Testing</span>
   </div>
 </div>
 
 <span class='anchor' id='about-me'></span>
 
-I am Yihao Zhang (张益豪), a First-Year Applied Mathematics PhD at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group.
+I am Yihao Zhang (张益豪), a Third-Year Applied Mathematics PhD at the School of Mathematical Sciences, Peking University. I am currently conducting research under the guidance of Professor [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) and am a part of his research group.
 
 I got my bachelor's degree (Data Science, Math) from Peking University in 2024. I served as a visiting research assistant at Singapore Management University, from October 2023 to May 2024. My supervisor at Singapore Management University is [Jun Sun](https://sunjun.site/).
 
 My research interests include:
 
-- Safety, Interpretability and Social Value for Large Language Model-based Agents **(Currently Focusing On)**
-- Mechanistic Interpretability for Large Language Models **(Currently Focusing On)**
-- Causality in AI, Formalization and Verification of Causality-Related Issues **(Currently Focusing On)**
-- Large Language Model Alignment, Trustworthy LLM
+- Formal Methods for LLM Agents **(Currently Focusing On)**
+- Jailbreaking LLM **(Currently Focusing On)**
+- Prompt Injection **(Currently Focusing On)**
+- Safety, Interpretability and Social Value for Large Language Model-based Agents
+- Mechanistic Interpretability for Large Language Models
 - Representation Engineering in LLM
 - AI Safety, Verifying Robustness/Fairness/Trustworthy Related Issues in AI
 - Automated Interactive Theorem Proving, AI4ITP
-- Formal Methods, Model Checking, Software Analysis, Program Verification
-- Formalizing and Verifying Quantum Computation Systems and Quantum AI Systems
-- Testing Technologies for AI System
 
 I have published multiple papers at different international conferences with total google scholar <a href='https://scholar.google.com/citations?user=9lALkz8AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fzhang-yihao.github.io&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=Website+Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+If you wish to access my personal homepage before 2024, please click [here](https://zhang-yihao.github.io/oldsite). [![Website Hits](https://hits.sh/zhang-yihao.github.io.svg?label=Website%20Hits&labelColor=555555&color=22d3ee&style=flat)](https://hits.sh/zhang-yihao.github.io/)
 
 # 🔥 News
 
@@ -117,6 +113,78 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 
 # Other Publications
 (*: Equal Contribution; ${}^\dagger$: Corresponding Author)
+
+<div class="pub reveal">
+  <h3>ClawWorm: Self-Propagating Attacks Across LLM Agent Ecosystems (Preprint, 2026)</h3>
+  <p class="pub__authors"><strong>Yihao Zhang</strong>, Zeming Wei, Xiaokun Luan, Chengcan Wu, Zhixin Zhang, Jiangrong Wu, Haolin Wu, Huanran Chen, Jun Sun, Meng Sun</p>
+  <p><a href="https://arxiv.org/abs/2603.15727">arxiv</a> <a href="https://arxiv.org/pdf/2603.15727">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>The Salami Slicing Threat: Exploiting Cumulative Risks in LLM Systems (Preprint, 2026)</h3>
+  <p class="pub__authors"><strong>Yihao Zhang</strong>, Kai Wang, Jiangrong Wu, Haolin Wu, Yuxuan Zhou, Zeming Wei, Dongxian Wu, Xun Chen, Jun Sun, Meng Sun</p>
+  <p><a href="https://arxiv.org/abs/2604.11309">arxiv</a> <a href="https://arxiv.org/pdf/2604.11309">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>RACA: Representation-Aware Coverage Criteria for LLM Safety Testing (Preprint, 2026)</h3>
+  <p class="pub__authors">Zeming Wei, Zhixin Zhang, Chengcan Wu, <strong>Yihao Zhang</strong>, Xiaokun Luan, Meng Sun</p>
+  <p><a href="https://arxiv.org/abs/2602.02280">arxiv</a> <a href="https://arxiv.org/pdf/2602.02280">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Symbolic-Neural Soft-Logic Reasoning: Towards Robust and Verifiable Thinking Chains via Cooperative Evolution (Preprint, 2026)</h3>
+  <p class="pub__authors">Rui Wang, Zeming Wei, <strong>Yihao Zhang</strong>, Xiaokun Luan</p>
+  <p><a href="https://arxiv.org/abs/2605.25618">arxiv</a> <a href="https://arxiv.org/pdf/2605.25618">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>On Mutation Testing of In-Context Learning Systems (Journal of Systems Architecture, 2026)</h3>
+  <p class="pub__authors">Zeming Wei, Guanzhang Yue, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://doi.org/10.1016/j.sysarc.2026.103760">doi</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Automata-Based Steering of Large Language Models for Diverse Structured Generation (ICFEM 2025)</h3>
+  <p class="pub__authors">Xiaokun Luan, Zemin Wei, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://doi.org/10.1007/978-981-95-4213-0_2">doi</a> <a href="https://arxiv.org/abs/2511.11018">arxiv</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Robust and Efficient Watermarking of Large Language Models Using Error Correction Codes (PETS 2025)</h3>
+  <p class="pub__authors">Xiaokun Luan, Zeming Wei, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://doi.org/10.56553/popets-2025-0126">doi</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>When Thinking LLMs Lie: Unveiling the Strategic Deception in Representations of Reasoning Models (Preprint, 2025)</h3>
+  <p class="pub__authors">Kai Wang, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://arxiv.org/abs/2506.04909">arxiv</a> <a href="https://arxiv.org/pdf/2506.04909">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Mitigating Fine-tuning Risks in LLMs via Safety-Aware Probing Optimization (Preprint, 2025)</h3>
+  <p class="pub__authors">Chengcan Wu, Zhixin Zhang, Zeming Wei, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://arxiv.org/abs/2505.16737">arxiv</a> <a href="https://arxiv.org/pdf/2505.16737">pdf</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Towards Formal Modeling and Verification of the Stellar Consensus Protocol in Z3 (QRS Companion 2025)</h3>
+  <p class="pub__authors">Feiran Lei, <strong>Yihao Zhang</strong>, Xuefei Tong, Shuaida Wu, Meng Sun</p>
+  <p><a href="https://doi.org/10.1109/QRS-C65679.2025.00090">doi</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>MedTiny Code Generation for Enhancing RegLang Smart Contract Reliability (SAC 2025)</h3>
+  <p class="pub__authors">Xiaokun Luan, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://doi.org/10.1145/3672608.3707846">doi</a></p>
+</div>
+
+<div class="pub reveal">
+  <h3>Component Composition in MedTiny: Multi-Level Constructs and Operational Semantics (SEKE 2025)</h3>
+  <p class="pub__authors">Xiangyu Li, <strong>Yihao Zhang</strong>, Meng Sun</p>
+  <p><a href="https://doi.org/10.18293/SEKE2025-057">doi</a></p>
+</div>
 
 <div class="pub reveal">
   <h3>Boosting jailbreak attack with momentum (ICASSP 2025 Oral, ICLR 2024 R2-FM Workshop)</h3>
@@ -188,7 +256,8 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 
 # 🔗 Links
 - 👨‍🏫 **Advisors**: [Meng Sun](https://www.math.pku.edu.cn/teachers/sunm/index.html) (PKU), [Jun Sun](https://sunjun.site/) (SMU).
-- 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/), [Huanran Chen](https://huanranchen.github.io/)
+- 🧑‍🎓 **Co-authors**: [Zeming Wei](https://weizeming.github.io/), [Xiaokun Luan](https://luan-xiaokun.github.io/), [Xiyue Zhang](https://zhang-xiyue.github.io/), [Huanran Chen](https://huanranchen.github.io/)
+{% comment %}
 ## 📚 Academic Links
 - [Z3 Guide](https://microsoft.github.io/z3guide/)
 - [Z3 Tutorial](https://theory.stanford.edu/~nikolaj/programmingz3.html)
@@ -204,3 +273,4 @@ Since the development of Large Language Models (LLMs) has achieved remarkable su
 - [POPL](https://sigplan.org/Conferences/POPL/)
 - [Open class on Constraint Solving](https://www.koushare.com/home/searchRes?key=%E7%BA%A6%E6%9D%9F%E6%B1%82%E8%A7%A3), [Bilibili](https://space.bilibili.com/5510373/channel/seriesdetail?sid=3640012&ctype=0)
 - Model Checking and Program Verification Courses & Tutorials: [PKU Software Foundations](https://xiongyingfei.github.io/SF/2023/), [PKU Software Analysis](https://xiongyingfei.github.io/SA_new/2023/assignments.html), [USTC Formal Methods](https://faculty.ustc.edu.cn/huangwenchao/zh_CN/zdylm/680196/list/index.htm), [TJU Model Checking](https://cic.tju.edu.cn/faculty/zhangxiaowang/MCPV.htm), [Stanford CS357](https://web.stanford.edu/class/cs357/), [Column of Program Verification on Zhihu](https://www.zhihu.com/column/c_1311359270597419008)
+{% endcomment %}
