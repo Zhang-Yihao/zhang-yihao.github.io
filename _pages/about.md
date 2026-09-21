@@ -89,6 +89,9 @@ If you wish to access my personal homepage before 2024, please click [here](http
 # 🔥 News
 
 <div class="timeline">
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 Our paper, <a href="https://arxiv.org/abs/2603.15727">AgentWorm: Self-Propagating Attacks Across LLM Agent Ecosystems</a>, is accepted by <strong>NDSS 2027</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 Our paper, <a href="https://arxiv.org/abs/2406.05564">Automata Extraction from Transformers</a>, is accepted by <strong>ICECCS 2026</strong>.</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 Our paper, <strong>DocVerify: Constraint-Based Verification of LLM Outputs Against Document Knowledge</strong>, is accepted by <strong>ICECCS 2026</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 I joined <strong>Tencent Yuanbao Security Center</strong> (腾讯元宝安全中心).</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 Our paper, <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a>, is published in <strong>Journal of Systems Architecture</strong>.</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 I left ByteDance Flow Security.</div></div>

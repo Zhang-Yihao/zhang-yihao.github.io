@@ -89,6 +89,9 @@ redirect_from:
 <h1 id="news">🔥 新闻</h1>
 
 <div class="timeline">
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 我们的论文 <a href="https://arxiv.org/abs/2603.15727">AgentWorm: Self-Propagating Attacks Across LLM Agent Ecosystems</a> 被 <strong>NDSS 2027</strong> 录用。</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 我们的论文 <a href="https://arxiv.org/abs/2406.05564">Automata Extraction from Transformers</a> 被 <strong>ICECCS 2026</strong> 录用。</div></div>
+  <div class="timeline__item reveal"><span class="timeline__date">2026.09</span><div class="timeline__content">🎉 我们的论文 <strong>DocVerify: Constraint-Based Verification of LLM Outputs Against Document Knowledge</strong> 被 <strong>ICECCS 2026</strong> 录用。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🏢 我入职 <strong>腾讯元宝安全中心</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2026.03</span><div class="timeline__content">🎉 我们的论文 <a href="https://doi.org/10.1016/j.sysarc.2026.103760">On Mutation Testing of In-Context Learning Systems</a> 发表于 <strong>Journal of Systems Architecture</strong>。</div></div>
   <div class="timeline__item reveal"><span class="timeline__date">2025.12</span><div class="timeline__content">👋 我从字节跳动 Flow 安全离职。</div></div>

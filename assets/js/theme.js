@@ -24,5 +24,21 @@
     if (!sections.length) return;
     window.addEventListener('scroll', function () { var current = sections[0]; sections.forEach(function (item) { if (item.node.getBoundingClientRect().top < 115) current = item; }); sections.forEach(function (item) { item.link.classList.toggle('active', item === current); }); }, { passive: true });
   }
-  document.addEventListener('DOMContentLoaded', function () { initTheme(); initReveal(); initNavigation(); });
+  function initTypewriter() {
+    var node = document.querySelector('.typed');
+    if (!node) return;
+    var words; try { words = JSON.parse(node.getAttribute('data-typed')); } catch (e) { return; }
+    if (!words || !words.length) return;
+    var index = 0, cursor = 0, removing = false;
+    function tick() {
+      var word = words[index];
+      cursor += removing ? -1 : 1;
+      node.textContent = word.slice(0, cursor);
+      if (!removing && cursor === word.length) { removing = true; window.setTimeout(tick, 1500); return; }
+      if (removing && cursor === 0) { removing = false; index = (index + 1) % words.length; }
+      window.setTimeout(tick, removing ? 24 : 45);
+    }
+    tick();
+  }
+  document.addEventListener('DOMContentLoaded', function () { initTheme(); initReveal(); initNavigation(); initTypewriter(); });
 }());
