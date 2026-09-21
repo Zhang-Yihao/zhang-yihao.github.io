@@ -40,5 +40,11 @@
     }
     tick();
   }
-  document.addEventListener('DOMContentLoaded', function () { initTheme(); initReveal(); initNavigation(); initTypewriter(); });
+  document.addEventListener('DOMContentLoaded', function () {
+    /* Keep the research ticker independent from optional page enhancements. */
+    try { initTypewriter(); } catch (e) {}
+    try { initTheme(); } catch (e) {}
+    try { initReveal(); } catch (e) {}
+    try { initNavigation(); } catch (e) {}
+  });
 }());

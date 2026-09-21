@@ -19,7 +19,7 @@ redirect_from:
 <div class="hero">
   <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
-  <p class="hero__title">北京大学数学科学学院 · 应用数学博士三年级</p>
+  <p class="hero__title">应用数学博士三年级<br><span class="hero__institution">北京大学数学科学学院</span></p>
   <p class="hero__company">现于腾讯元宝安全中心任职</p>
   <div class="hero__focus">
     <span class="hero__focus-label">主要研究方向</span>

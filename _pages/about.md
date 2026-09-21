@@ -19,7 +19,7 @@ redirect_from:
 <div class="hero">
   <div class="hero__avatar"><img src="/images/head.png" alt="Zhang Yihao"></div>
   <h1 class="hero__name">Yihao Zhang<span class="hero__cn">张益豪</span></h1>
-  <p class="hero__title">Third-Year Applied Mathematics PhD · School of Mathematical Sciences, Peking University</p>
+  <p class="hero__title">Third-Year Applied Mathematics PhD<br><span class="hero__institution">School of Mathematical Sciences, Peking University</span></p>
   <p class="hero__company">Currently @ Tencent Yuanbao Security Center</p>
   <div class="hero__focus">
     <span class="hero__focus-label">Primary Research Focus</span>
